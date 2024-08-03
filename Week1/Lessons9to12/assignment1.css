@@ -1,0 +1,25 @@
+div {
+     background-color: antiquewhite;
+     display: inline;
+     padding: 10px;
+     border-width: 5px;
+     outline-width: 5px;
+     outline-style: solid;
+     outline-color: black;
+     margin: 10px;
+}
+
+.sh1 {
+     border-style: solid;
+     border-color: red;
+}
+
+.sh2 {
+     border-style: solid;
+     border-color: blue green;
+}
+
+.sh3 {
+     border-style: dashed;
+     border-color: red green blue yellow;
+}

@@ -1,0 +1,15 @@
+.parent {
+     width: 800px;
+}
+.d1 {
+     width: inherit;
+}
+/* div {
+     padding: 15px;
+     float: left;
+     clear: both;
+     text-align: center;
+     background-color: #dedede;
+     width: calc((100%-210)/10);
+     
+} */

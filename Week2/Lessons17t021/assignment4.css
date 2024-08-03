@@ -1,0 +1,11 @@
+a {
+    color: aliceblue;
+    background-color: rgb(17, 89, 99);
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 30px;
+    text-align: center;
+    border-bottom: solid 5px rgb(7, 34, 37);
+    
+}

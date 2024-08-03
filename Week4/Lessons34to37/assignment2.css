@@ -1,0 +1,25 @@
+div {
+      width: 300px;
+      margin-right: auto;
+      margin-left: auto;
+      background-color: #dedede;
+      padding: 17px;
+      position: relative;
+}
+div::before {
+      content: attr(data-text);
+      position: absolute;
+      height: 24px;
+      width: 9px;
+      color: white;
+      background-color: red;
+      text-align: center;
+      padding: 3px;
+      left: -5px;
+      top: 21%;
+}
+
+div::selection {
+      background-color: burlywood;
+      color: chartreuse;
+}

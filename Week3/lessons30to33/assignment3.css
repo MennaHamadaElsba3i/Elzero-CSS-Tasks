@@ -1,0 +1,22 @@
+.parent {
+     padding: 10px;
+     background-color: white;
+     list-style-type: none;
+}
+.skill {
+     margin: 20px;
+     background-color: #dedeed;
+     padding: 10px;
+}
+.item {
+     margin: 5px;
+     padding: 8px;
+     background-color: white;
+}
+.sk-js .item {
+     list-style-position: inside;
+
+}
+.css-skill {
+     list-style-type: upper-roman;
+}

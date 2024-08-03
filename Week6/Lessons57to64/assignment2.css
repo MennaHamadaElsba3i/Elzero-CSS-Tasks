@@ -1,0 +1,89 @@
+.layout {
+     height: 100vh;
+     background-color: blueviolet;
+     display: grid;
+     grid-template-columns: repeat(12, 1fr);
+     grid-template-rows: auto 80% auto;
+     grid-template-areas: "head head head head head head head head head head head head"
+          "sec sec sec sec sec sec sec sec sec side side side "
+          "foot foot foot foot foot foot foot foot foot foot foot foot ";
+}
+
+header {
+     position: relative;
+     background-color: rgb(0, 136, 255);
+     grid-area: head;
+     color: white;
+}
+
+header::after {
+     position: absolute;
+     content: "Header";
+     color: white;
+     top: 30%;
+     left: 13px;
+     background-color: rgb(0, 136, 255);
+     padding: 10px;
+     font-family: sans-serif;
+     font-weight: bold;
+}
+
+section {
+     position: relative;
+     background-color: orangered;
+     grid-area: sec;
+     color: white;
+}
+
+section::after {
+     position: absolute;
+     content: "Section";
+     color: white;
+     top: 3%;
+     left: 13px;
+     background-color: orangered;
+     padding: 10px;
+     font-family: sans-serif;
+     font-weight: bold;
+
+}
+
+aside {
+     position: relative;
+     background-color: #60708b;
+     grid-area: side;
+     color: white;
+}
+
+aside::after {
+     position: absolute;
+     content: "Aside";
+     color: white;
+     top: 3%;
+     left: 8px;
+     background-color: #60708b;
+     padding: 10px;
+     font-family: sans-serif;
+     font-weight: bold;
+
+}
+
+footer {
+     position: relative;
+     background-color: rgb(37, 103, 89);
+     grid-area: foot;
+     color: white;
+}
+
+footer::after {
+     position: absolute;
+     content: "Footer";
+     color: white;
+     top: 27%;
+     left: 4px;
+     background-color: rgb(37, 103, 89);
+     padding: 10px;
+     font-family: sans-serif;
+     font-weight: bold;
+
+}

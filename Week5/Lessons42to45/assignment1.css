@@ -1,0 +1,29 @@
+.Parent {
+     background-color: #dededd;
+     width: 400px;
+     margin-left: auto;
+     margin-right: auto;
+     margin: 50px auto;
+     height: 200px;
+     padding: 20px;
+     text-align: center;
+     transition-duration: 0.5s;
+     transition-delay: 0s;
+     transition-timing-function: ease;
+}
+.Parent:hover {
+     margin-top: 20px;
+     
+}
+.Child {
+     background-color: #898985;
+     padding: 20px;
+     transition-duration: 1s;
+     transition-delay: 0.5s;
+     transition-timing-function: linear;
+}
+.Parent:hover .Child {
+     margin-top: 50px;
+}
+/* .Parent:hover .Child 
+  ده عشان لما اتك على البيرنت التشايلد يتحرك مش لازم البوينتر ييجي على التشايلد  */

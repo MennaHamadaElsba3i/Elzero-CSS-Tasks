@@ -1,0 +1,15 @@
+div {
+     margin: 15px;
+}
+.one {
+     text-transform: uppercase;
+    
+}
+.two {
+     text-transform: capitalize;
+     text-indent: 20px;
+}
+.three {
+     text-transform: lowercase;
+     text-indent: 22px;
+}

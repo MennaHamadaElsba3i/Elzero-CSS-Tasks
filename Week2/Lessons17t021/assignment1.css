@@ -1,0 +1,6 @@
+div {
+     color: rgb(12, 1, 1);
+     text-shadow: 1px 1px 0px red
+                  ,2px 2px 0px blue
+                  ,3px 3px 0px rgb(134, 33, 134);
+}

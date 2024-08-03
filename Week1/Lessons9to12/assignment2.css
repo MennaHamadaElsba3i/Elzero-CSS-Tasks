@@ -1,0 +1,20 @@
+div {
+     width: 400px;
+     background-color: rgb(230, 219, 228);
+     margin: 5px;
+     padding: 8px;
+}
+.elementelement-1 {
+     border-style: none none none solid;
+     border-width: 3px;
+     border-color: rgb(216, 104, 141);
+}
+.elementelement-2 {
+     visibility: hidden;
+}
+.elementelement-3 {
+     border-style: none none none solid;
+     border-width: 3px;
+     border-color: rgb(39, 115, 134);
+
+}

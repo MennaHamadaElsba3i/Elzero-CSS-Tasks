@@ -1,0 +1,13 @@
+div {
+     background-color: #dededd;
+     text-align: center;
+     margin: 20px;
+     width: 300px;
+     margin-left: auto;
+     margin-right: auto;
+     height: 60px;
+}
+
+div:empty {
+     background-color: red;
+}

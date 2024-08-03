@@ -1,0 +1,33 @@
+p {
+     position: relative;
+     width: 300px;
+     margin-right: auto;
+     margin-left: auto;
+     background-color: #dedede;
+     padding: 10px;
+     counter-increment: product-num;
+     font-family: sans-serif;
+}
+p::before {
+     position: absolute;
+     content: counter(product-num);
+     background-color: red;
+     padding: 5px;
+     color: white;
+     width: 28px;
+     height: 28.5px;
+     left: -38px;
+     top: -1%;
+     text-align: center;
+}
+p::after {
+     content: "";
+     position: absolute;
+     background-color: red;
+     height: 38px;
+     width: 4px;
+     right: 0px;
+     top: 0px;
+}
+
+

@@ -1,0 +1,10 @@
+div {
+     width: fit-content;
+     background-color: brown;
+     color: rgb(222, 236, 248);
+     max-width: 400PX;
+     max-height: 50px;
+     overflow: hidden;
+     padding: 10px;
+     margin: 10px;
+}
